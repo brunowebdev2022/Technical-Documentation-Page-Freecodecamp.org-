@@ -1,21 +1,82 @@
 /** --------------------------- All --------------------------- **/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  
+  html,
+  body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
   }
 
-
-a {
-  text-decoration: none;
-  color: gray;
-}  
-
-body {
-    background-color: whitesmoke;
-    font-family: 'Lato', sans-serif;
-    position: relative;
+  header {
+      font-size: 1.8em;
+      color: black;
+      margin: 10px;
+      text-align: center;
   }
 
 /** --------------------------- /All --------------------------- **/
+
+/** --------------------------- Navigation Bar --------------------------- **/
+
+nav {
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    border-right: solid black 3px;
+}
+
+nav ul {
+    padding: 0;
+    height: 85%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+nav li {
+    border-top: solid black 1px;
+    list-style: none;
+    padding: 10px 30px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    color: #4d4e53;
+}
+
+
+
+/** --------------------------- /Navigation Bar --------------------------- **/
+
+/** --------------------------- Main --------------------------- **/
+
+#main-doc {
+    margin-left: 310px;
+    padding: 20px;
+}
+
+/** --------------------------- /Main --------------------------- **/
+
+/** --------------------------- Section --------------------------- **/
+
+.main-section > header {
+    text-align: left;
+    margin: 0px;
+}
+
+.main-section > article {
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+.main-section li {
+    margin: 15px 0 0 25px;
+}
+
+/** --------------------------- /Section --------------------------- **/
