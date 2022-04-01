@@ -16,6 +16,20 @@
       text-align: center;
   }
 
+  code {
+    display: block;
+    text-align: left;
+    position: relative;
+    white-space: pre-line;
+    line-height: 2;
+    word-break: normal;
+    word-wrap: normal;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
 /** --------------------------- /All --------------------------- **/
 
 /** --------------------------- Navigation Bar --------------------------- **/
@@ -41,12 +55,12 @@ nav ul {
 nav li {
     border-top: solid black 1px;
     list-style: none;
-    padding: 10px 30px;
 }
 
 nav a {
     text-decoration: none;
     display: block;
+    padding: 10px 30px;
     color: #4d4e53;
 }
 
@@ -59,6 +73,8 @@ nav a {
 #main-doc {
     margin-left: 310px;
     padding: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /** --------------------------- /Main --------------------------- **/
